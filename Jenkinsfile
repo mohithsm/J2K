@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-        registry = "dockerqprofiles/j2k:1.0.0"
+        registry = "mohithsm/j2k:1.0.0"
         registryCredential = 'DockerHubCreds' 
   }
 
